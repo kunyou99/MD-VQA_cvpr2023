@@ -1,0 +1,4 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+data/efficientnet_v2_s-dd5fe13b.pth filter=lfs diff=lfs merge=lfs -text
+data/r2plus1d_18-91a641e6.pth filter=lfs diff=lfs merge=lfs -text
+data/LSVQ_rp0.pth filter=lfs diff=lfs merge=lfs -text
