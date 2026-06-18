@@ -18,7 +18,9 @@ pip install -r requirements.txt
 
 ### Get video quality score
 
-We provide the model weights which trained on the LSVQ dataset. Running the following code, you can evaluate the quality of the local video.
+We offer two pre-trained model weights: one trained solely on the LSVQ dataset (`LSVQ_rp0.pth`) and another trained on a combined LSVQ and TaoLive dataset (`MDVQA_LSVQ_TaoLive.pth`).  Running the following code, you can evaluate the quality of the local video.
+
+Please be aware that the current model has been trained and tested primarily on videos with resolutions up to the Blu-ray level (1080p). For best results, we recommend using videos at or below this resolution.
 
 ```
 python3 test_video.py -i "your video path"

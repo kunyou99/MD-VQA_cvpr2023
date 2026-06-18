@@ -13,6 +13,7 @@ if __name__ == '__main__':
                     semantic_path=os.path.join(current_dir,
                                                 'data/efficientnet_v2_s-dd5fe13b.pth'),
                     motion_path=os.path.join(current_dir, 'data/r2plus1d_18-91a641e6.pth'),
-                    mdvqa_path=os.path.join(current_dir, 'data/LSVQ_rp0.pth'), )
+                    mdvqa_path=os.path.join(current_dir, 'data/MDVQA_LSVQ_TaoLive.pth'), )
+                    # mdvqa_path=os.path.join(current_dir, 'data/LSVQ_rp0.pth'), )
     res = model_infer(video_path=args.mp4_path)
-    print(res)#94.45
+    print(res)#91.38
